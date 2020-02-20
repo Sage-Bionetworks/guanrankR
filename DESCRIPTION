@@ -1,13 +1,17 @@
 Package: guanrankR
-Title: What the Package Does (One Line, Title Case)
+Title: Guanrank Transform For Right Censored Data
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Authors@R: c(
+    person(given = "Thomas", family = "Corey", role = c("aut", "cre"), email = "tomas.a.corey@gmail.com"),
+    person(given = "Michael", family = "Mason", role = c("aut"), email = "michael.mason@sagebase.org"))
+Description: Implements functions to perform the Guanrank transform, developed
+  in "Complete hazard ranking to analyze right-censored data: An ALS survival 
+  study" (https://www.ncbi.nlm.nih.gov/pubmed/29253881).
+Imports:
+  magrittr,
+  dplyr,
+  survival
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.0.2
